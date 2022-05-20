@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Silas Nordahls Logbog</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <!-- Navigation bar HTML -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Kaj Børge</a>
+            <a href="informatik.html">INF</a>
+            <a href="matematik.html" class="active">INF 2</a>
+            <a href="dansk.html">DAN</a>
+            <a href="engelsk.html">Engelsk</a>
+            <a href="so.html">#nmb</a>
+            <a href="beginnerversion/index.html">Flappy bird</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <!-- Accordion HTML -->
+        <div class="content" id="matematik">
+            <div class="element left">
+                <h2>Grafisk design og serverer</h2>
+
+                <button class="accordion">Ayo?</button>
+                <div class="panel">
+                <img src="images/informatik.gif">
+                </div>
+                
+                <button class="accordion">Five core grafical design principals</button>
+                <div class="panel">
+                <p>White space: White space er det hvide område rundt om billeder eller tekst hvor der ikke står noget, for at gøre opmærksom på andet
+                <br>    
+                <br>Kontrast: Der kan være kontrat i form af størrelse,bredde,lys,farve,position. Det er meningen man skal ændre på noget for at gøre opmærksom på noget andet
+                <br>
+                <br>Gentagelser: meningen med gentagelser er at skabe konistens for ligesom at gøre det mere akkurat
+                <br>
+                <br>Justering: meningen med justering er at skabe balance og ligesom at udrydde uorden
+                <br>
+                <br>Nærhed:hvis man sætter 2 objekter tæt på hinanden har de som regel noget med hinanden at gøre, det er princippet med nærhed. At skabe en form for lighed mellem 2 objekter
+            </p>
+                </div>
+
+                <button class="accordion">Entity relationship diagram</button>
+                <div class="panel">
+                <p> Det er en form for strukturel diagram, der kan hjælpe en med at et godt database design 
+                <br>
+                grunden til at det bliver kaldt "Entity relationship diagram" er fordi at det hjælper en med at holde overblik
+                <br>
+                over sin database og hvordan den hænger sammen, det sikre at dataerne hænger korret sammen.
+            
+                <br> 
+                eksempel på entity diagram under
+                <img src="images/entity.jpg">  
+                </p>
+                </div>
+            </div>
+
+            <div class="element left">
+                <h2>.</h2>
+                <button class="accordion">Projekt med servere</button>
+                <div class="panel">
+                <p>Til at starte med ville jeg prøve at skabe en slags forbindelse med mit flappy bird spil og serveren.
+                    <br>
+                    meningen med det var at serveren selv skulle hente highscoren fra flappy bird spillet. 
+                    <br>
+                    jeg fik det til at fungere og lavede en href på min hjemmeside som førte dirkete til mit flappy bird spil.
+
+                    
+                </p>
+                </div>
+
+                <button class="accordion">Http</button>
+                <div class="panel">
+                <p>På vegne af en browser beder HTTP, der er en protokol, en server om specifikke data. Derefter svarer serveren så med en protokolkode og dataen.  Dette kan være et HTML-dokument, et billede eller en fejlkode. På denne måde kan browseren bygge siden op med de data, som den har modtaget fra serveren.
+                    
+                </p>
+                </div>
+
+                <button class="accordion"> Client server begrebet </button>
+                <div class="panel">
+                <p> Client/server, en netværkstype, hvor én computer kan være server og andre kan som klienter, efterspørge information. Man kan tænke på det ligesom en resturant, klienten er i vores tilfælde så personen der skal bestille mad (information) og tjeneren (serveren) kommer så med det mad (information) der er blevet efterspurgt.
+                    <br>
+                    nedstående billede er en model af typisk client/server model
+                    <img src="images/client.png">
+                </p>
+                </div>
+                
+            </div>
+
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
